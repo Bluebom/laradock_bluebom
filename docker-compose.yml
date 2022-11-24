@@ -1,10 +1,11 @@
-version: '3.5'
+version: '3.9'
 
 networks:
   frontend:
     driver: ${NETWORKS_DRIVER}
   backend:
     driver: ${NETWORKS_DRIVER}
+
 volumes:
   mysql:
     driver: ${VOLUMES_DRIVER}
