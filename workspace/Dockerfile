@@ -1793,6 +1793,7 @@ RUN apt-get clean && \
     rm /var/log/lastlog /var/log/faillog
 
 RUN echo "zsh" >> /root/.bashrc
+RUN echo "zsh" >> /home/laradock/.bashrc
 
 # Set default work directory
 WORKDIR /var/www
