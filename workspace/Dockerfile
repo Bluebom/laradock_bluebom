@@ -1792,5 +1792,7 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     rm /var/log/lastlog /var/log/faillog
 
+RUN echo "zsh" >> /root/.bashrc
+
 # Set default work directory
 WORKDIR /var/www
